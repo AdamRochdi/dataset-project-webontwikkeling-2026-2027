@@ -1,229 +1,35 @@
-
 [
   {
-    "id": "brand-001",
+    "id": "brand_001",
     "name": "Rolex",
+    "description": "Zwitserse fabrikant van luxe horloges.",
     "country": "Switzerland",
     "founded": 1905,
-    "images": [
-      "images/brands/rolex.jpg"
-    ],
-    "watches": [
-      {
-        "id": "watch-001",
-        "name": "Rolex Submariner Date",
-        "description": "Luxury diving watch with a classic design.",
-        "price": 11500,
-        "currency": "EUR",
-        "images": [
-          "images/watches/rolex-submariner-date.jpg"
-        ],
-        "category": "diver",
-        "tags": [
-          "luxury",
-          "diver",
-          "submariner",
-          "automatic"
-        ]
-      },
-      {
-        "id": "watch-002",
-        "name": "Rolex Datejust 41",
-        "description": "Classic luxury watch suitable for everyday wear.",
-        "price": 10500,
-        "currency": "EUR",
-        "images": [
-          "images/watches/rolex-datejust-41.jpg"
-        ],
-        "category": "classic",
-        "tags": [
-          "luxury",
-          "datejust",
-          "classic",
-          "automatic"
-        ]
-      }
-    ]
+    "isActive": true,
+    "category": "Luxury",
+    "tags": ["luxury", "automatic", "swiss"],
+    "imageUrl": "images/rolex.jpg"
   },
   {
-    "id": "brand-002",
+    "id": "brand_002",
     "name": "Omega",
+    "description": "Zwitserse horlogemaker bekend om sportieve en klassieke horloges.",
     "country": "Switzerland",
     "founded": 1848,
-    "images": [
-      "images/brands/omega.jpg"
-    ],
-    "watches": [
-      {
-        "id": "watch-003",
-        "name": "Omega Speedmaster Professional",
-        "description": "Iconic chronograph watch.",
-        "price": 7600,
-        "currency": "EUR",
-        "images": [
-          "images/watches/omega-speedmaster-professional.jpg"
-        ],
-        "category": "chronograph",
-        "tags": [
-          "luxury",
-          "chronograph",
-          "speedmaster",
-          "automatic"
-        ]
-      },
-      {
-        "id": "watch-004",
-        "name": "Omega Seamaster Diver 300M",
-        "description": "Professional diving watch with a sporty design.",
-        "price": 6500,
-        "currency": "EUR",
-        "images": [
-          "images/watches/omega-seamaster-diver-300m.jpg"
-        ],
-        "category": "diver",
-        "tags": [
-          "omega",
-          "seamaster",
-          "diver",
-          "sport"
-        ]
-      }
-    ]
+    "isActive": true,
+    "category": "Luxury",
+    "tags": ["luxury", "swiss", "sport"],
+    "imageUrl": "images/omega.jpg"
   },
   {
-    "id": "brand-003",
+    "id": "brand_003",
     "name": "Seiko",
+    "description": "Japans horlogemerk met een brede collectie mechanische en quartz horloges.",
     "country": "Japan",
     "founded": 1881,
-    "images": [
-      "images/brands/seiko.jpg"
-    ],
-    "watches": [
-      {
-        "id": "watch-005",
-        "name": "Seiko Prospex SPB143",
-        "description": "Sporty automatic diving watch.",
-        "price": 1350,
-        "currency": "EUR",
-        "images": [
-          "images/watches/seiko-prospex-spb143.jpg"
-        ],
-        "category": "diver",
-        "tags": [
-          "seiko",
-          "prospex",
-          "diver",
-          "sport"
-        ]
-      },
-      {
-        "id": "watch-006",
-        "name": "Seiko Presage Cocktail Time",
-        "description": "Elegant automatic watch with a detailed dial.",
-        "price": 450,
-        "currency": "EUR",
-        "images": [
-          "images/watches/seiko-presage-cocktail-time.jpg"
-        ],
-        "category": "dress",
-        "tags": [
-          "seiko",
-          "presage",
-          "dress",
-          "automatic"
-        ]
-      }
-    ]
-  },
-  {
-    "id": "brand-004",
-    "name": "Tissot",
-    "country": "Switzerland",
-    "founded": 1853,
-    "images": [
-      "images/brands/tissot.jpg"
-    ],
-    "watches": [
-      {
-        "id": "watch-007",
-        "name": "Tissot PRX Powermatic 80",
-        "description": "Modern integrated-bracelet automatic watch.",
-        "price": 775,
-        "currency": "EUR",
-        "images": [
-          "images/watches/tissot-prx-powermatic-80.jpg"
-        ],
-        "category": "automatic",
-        "tags": [
-          "tissot",
-          "prx",
-          "automatic",
-          "modern"
-        ]
-      },
-      {
-        "id": "watch-008",
-        "name": "Tissot Le Locle",
-        "description": "Elegant Swiss automatic watch.",
-        "price": 695,
-        "currency": "EUR",
-        "images": [
-          "images/watches/tissot-le-locle.jpg"
-        ],
-        "category": "dress",
-        "tags": [
-          "tissot",
-          "le-locle",
-          "classic",
-          "dress"
-        ]
-      }
-    ]
-  },
-  {
-    "id": "brand-005",
-    "name": "Casio",
-    "country": "Japan",
-    "founded": 1946,
-    "images": [
-      "images/brands/casio.jpg"
-    ],
-    "watches": [
-      {
-        "id": "watch-009",
-        "name": "Casio G-Shock GA-2100",
-        "description": "Durable sports watch with a lightweight design.",
-        "price": 110,
-        "currency": "EUR",
-        "images": [
-          "images/watches/casio-gshock-ga-2100.jpg"
-        ],
-        "category": "sport",
-        "tags": [
-          "casio",
-          "gshock",
-          "sport",
-          "casual"
-        ]
-      },
-      {
-        "id": "watch-010",
-        "name": "Casio Edifice EFR-S108D",
-        "description": "Slim stainless-steel sports watch.",
-        "price": 120,
-        "currency": "EUR",
-        "images": [
-          "images/watches/casio-edifice-efr-s108d.jpg"
-        ],
-        "category": "sport",
-        "tags": [
-          "casio",
-          "edifice",
-          "sport",
-          "casual"
-        ]
-      }
-    ]
+    "isActive": true,
+    "category": "Affordable",
+    "tags": ["japan", "automatic", "quartz"],
+    "imageUrl": "images/seiko.jpg"
   }
 ]
-
