@@ -1,0 +1,267 @@
+[
+  {
+    "id": "user-001",
+    "name": "Jan Janssens",
+    "email": "jan.janssens@example.com",
+    "expenses": [
+      {
+        "id": "expense-001",
+        "description": "Rolex Submariner Date",
+        "amount": 11500,
+        "date": "2026-01-15T14:30:00Z",
+        "currency": "EUR",
+        "paymentMethod": {
+          "method": "Credit Card",
+          "cardDetails": {
+            "cardNumber": "**** **** **** 4582",
+            "expiryDate": "2029-08"
+          }
+        },
+        "isIncoming": true,
+        "category": "watches",
+        "tags": [
+          "rolex",
+          "luxury",
+          "diver",
+          "submariner"
+        ],
+        "isPaid": true
+      },
+      {
+        "id": "expense-002",
+        "description": "Omega Speedmaster Professional",
+        "amount": 7600,
+        "date": "2026-02-10T11:15:00Z",
+        "currency": "EUR",
+        "paymentMethod": {
+          "method": "Bank Transfer",
+          "bankAccountNumber": "BE** **** **** 4821"
+        },
+        "isIncoming": true,
+        "category": "watches",
+        "tags": [
+          "omega",
+          "luxury",
+          "chronograph",
+          "speedmaster"
+        ],
+        "isPaid": true
+      }
+    ],
+    "budget": {
+      "monthlyLimit": 2500,
+      "notificationThreshold": 0.9,
+      "isActive": true
+    }
+  },
+  {
+    "id": "user-002",
+    "name": "Marie Peeters",
+    "email": "marie.peeters@example.com",
+    "expenses": [
+      {
+        "id": "expense-003",
+        "description": "Seiko Prospex SPB143",
+        "amount": 1350,
+        "date": "2026-01-20T16:45:00Z",
+        "currency": "EUR",
+        "paymentMethod": {
+          "method": "Credit Card",
+          "cardDetails": {
+            "cardNumber": "**** **** **** 7214",
+            "expiryDate": "2028-11"
+          }
+        },
+        "isIncoming": true,
+        "category": "watches",
+        "tags": [
+          "seiko",
+          "diver",
+          "prospex",
+          "sport"
+        ],
+        "isPaid": true
+      },
+      {
+        "id": "expense-004",
+        "description": "Tissot PRX Powermatic 80",
+        "amount": 775,
+        "date": "2026-03-05T13:20:00Z",
+        "currency": "EUR",
+        "paymentMethod": {
+          "method": "PayPal"
+        },
+        "isIncoming": true,
+        "category": "watches",
+        "tags": [
+          "tissot",
+          "prx",
+          "automatic",
+          "modern"
+        ],
+        "isPaid": true
+      }
+    ],
+    "budget": {
+      "monthlyLimit": 1800,
+      "notificationThreshold": 0.8,
+      "isActive": true
+    }
+  },
+  {
+    "id": "user-003",
+    "name": "Thomas De Smet",
+    "email": "thomas.desmet@example.com",
+    "expenses": [
+      {
+        "id": "expense-005",
+        "description": "Rolex Datejust 41",
+        "amount": 10500,
+        "date": "2026-02-18T10:00:00Z",
+        "currency": "EUR",
+        "paymentMethod": {
+          "method": "Bank Transfer",
+          "bankAccountNumber": "BE** **** **** 7392"
+        },
+        "isIncoming": true,
+        "category": "watches",
+        "tags": [
+          "rolex",
+          "datejust",
+          "luxury",
+          "classic"
+        ],
+        "isPaid": true
+      },
+      {
+        "id": "expense-006",
+        "description": "Casio G-Shock GA-2100",
+        "amount": 110,
+        "date": "2026-03-12T17:30:00Z",
+        "currency": "EUR",
+        "paymentMethod": {
+          "method": "Cash"
+        },
+        "isIncoming": true,
+        "category": "watches",
+        "tags": [
+          "casio",
+          "gshock",
+          "sport",
+          "casual"
+        ],
+        "isPaid": true
+      }
+    ],
+    "budget": {
+      "monthlyLimit": 1500,
+      "notificationThreshold": 0.85,
+      "isActive": true
+    }
+  },
+  {
+    "id": "user-004",
+    "name": "Sarah Vermeulen",
+    "email": "sarah.vermeulen@example.com",
+    "expenses": [
+      {
+        "id": "expense-007",
+        "description": "Omega Seamaster Diver 300M",
+        "amount": 6500,
+        "date": "2026-03-01T12:00:00Z",
+        "currency": "EUR",
+        "paymentMethod": {
+          "method": "Credit Card",
+          "cardDetails": {
+            "cardNumber": "**** **** **** 3168",
+            "expiryDate": "2030-04"
+          }
+        },
+        "isIncoming": true,
+        "category": "watches",
+        "tags": [
+          "omega",
+          "seamaster",
+          "diver",
+          "sport"
+        ],
+        "isPaid": true
+      },
+      {
+        "id": "expense-008",
+        "description": "Tissot Le Locle",
+        "amount": 695,
+        "date": "2026-03-15T15:45:00Z",
+        "currency": "EUR",
+        "paymentMethod": {
+          "method": "Bank Transfer",
+          "bankAccountNumber": "BE** **** **** 1856"
+        },
+        "isIncoming": true,
+        "category": "watches",
+        "tags": [
+          "tissot",
+          "le-locle",
+          "classic",
+          "dress"
+        ],
+        "isPaid": false
+      }
+    ],
+    "budget": {
+      "monthlyLimit": 2200,
+      "notificationThreshold": 0.9,
+      "isActive": true
+    }
+  },
+  {
+    "id": "user-005",
+    "name": "Lucas Willems",
+    "email": "lucas.willems@example.com",
+    "expenses": [
+      {
+        "id": "expense-009",
+        "description": "Seiko Presage Cocktail Time",
+        "amount": 450,
+        "date": "2026-02-25T18:15:00Z",
+        "currency": "EUR",
+        "paymentMethod": {
+          "method": "PayPal"
+        },
+        "isIncoming": true,
+        "category": "watches",
+        "tags": [
+          "seiko",
+          "presage",
+          "dress",
+          "automatic"
+        ],
+        "isPaid": true
+      },
+      {
+        "id": "expense-010",
+        "description": "Casio Edifice EFR-S108D",
+        "amount": 120,
+        "date": "2026-03-20T09:30:00Z",
+        "currency": "EUR",
+        "paymentMethod": {
+          "method": "Cash"
+        },
+        "isIncoming": true,
+        "category": "watches",
+        "tags": [
+          "casio",
+          "edifice",
+          "sport",
+          "casual"
+        ],
+        "isPaid": true
+      }
+    ],
+    "budget": {
+      "monthlyLimit": 1000,
+      "notificationThreshold": 0.75,
+      "isActive": false
+    }
+  }
+]
