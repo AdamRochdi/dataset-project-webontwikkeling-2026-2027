@@ -1,299 +1,281 @@
-
 [
   {
-    "id": "user-001",
-    "name": "Jan Janssens",
-    "email": "jan.janssens@example.com",
+    "id": "user_001",
+    "name": "Jan Peeters",
+    "email": "jan.peeters@example.com",
     "expenses": [
       {
-        "id": "expense-001",
-        "description": "Rolex Submariner Date",
-        "amount": 11500,
-        "date": "2026-01-15T14:30:00Z",
+        "id": "expense_001",
+        "description": "Aankoop Rolex Submariner",
+        "amount": 8500,
+        "date": "2026-09-02T10:30:00+02:00",
         "currency": "EUR",
-        "images": [
-          "images/watches/rolex-submariner-date.jpg"
-        ],
-        "paymentMethod": {
-          "method": "Credit Card",
-          "cardDetails": {
-            "cardNumber": "**** **** **** 4582",
-            "expiryDate": "2029-08"
-          }
-        },
-        "isIncoming": true,
-        "category": "watches",
-        "tags": [
-          "rolex",
-          "luxury",
-          "diver",
-          "submariner"
-        ],
-        "isPaid": true
-      },
-      {
-        "id": "expense-002",
-        "description": "Omega Speedmaster Professional",
-        "amount": 7600,
-        "date": "2026-02-10T11:15:00Z",
-        "currency": "EUR",
-        "images": [
-          "images/watches/omega-speedmaster-professional.jpg"
-        ],
         "paymentMethod": {
           "method": "Bank Transfer",
-          "bankAccountNumber": "BE** **** **** 4821"
+          "bankAccountNumber": "BE** **** **** 1234"
         },
-        "isIncoming": true,
+        "isIncoming": false,
         "category": "watches",
-        "tags": [
-          "omega",
-          "luxury",
-          "chronograph",
-          "speedmaster"
-        ],
+        "tags": ["rolex", "submariner", "inventory"],
         "isPaid": true
       }
     ],
     "budget": {
-      "monthlyLimit": 2500,
+      "monthlyLimit": 10000,
       "notificationThreshold": 0.9,
       "isActive": true
     }
   },
   {
-    "id": "user-002",
-    "name": "Marie Peeters",
-    "email": "marie.peeters@example.com",
+    "id": "user_002",
+    "name": "Sarah Janssens",
+    "email": "sarah.janssens@example.com",
     "expenses": [
       {
-        "id": "expense-003",
-        "description": "Seiko Prospex SPB143",
-        "amount": 1350,
-        "date": "2026-01-20T16:45:00Z",
+        "id": "expense_002",
+        "description": "Aankoop Omega Speedmaster",
+        "amount": 7200,
+        "date": "2026-09-04T14:15:00+02:00",
         "currency": "EUR",
-        "images": [
-          "images/watches/seiko-prospex-spb143.jpg"
-        ],
         "paymentMethod": {
           "method": "Credit Card",
           "cardDetails": {
-            "cardNumber": "**** **** **** 7214",
-            "expiryDate": "2028-11"
+            "cardNumber": "**** **** **** 4821",
+            "expiryDate": "09/29"
           }
         },
-        "isIncoming": true,
+        "isIncoming": false,
         "category": "watches",
-        "tags": [
-          "seiko",
-          "diver",
-          "prospex",
-          "sport"
-        ],
-        "isPaid": true
-      },
-      {
-        "id": "expense-004",
-        "description": "Tissot PRX Powermatic 80",
-        "amount": 775,
-        "date": "2026-03-05T13:20:00Z",
-        "currency": "EUR",
-        "images": [
-          "images/watches/tissot-prx-powermatic-80.jpg"
-        ],
-        "paymentMethod": {
-          "method": "PayPal"
-        },
-        "isIncoming": true,
-        "category": "watches",
-        "tags": [
-          "tissot",
-          "prx",
-          "automatic",
-          "modern"
-        ],
+        "tags": ["omega", "speedmaster"],
         "isPaid": true
       }
     ],
     "budget": {
-      "monthlyLimit": 1800,
+      "monthlyLimit": 9000,
       "notificationThreshold": 0.8,
       "isActive": true
     }
   },
   {
-    "id": "user-003",
+    "id": "user_003",
     "name": "Thomas De Smet",
     "email": "thomas.desmet@example.com",
     "expenses": [
       {
-        "id": "expense-005",
-        "description": "Rolex Datejust 41",
-        "amount": 10500,
-        "date": "2026-02-18T10:00:00Z",
+        "id": "expense_003",
+        "description": "Verkoop Rolex Datejust",
+        "amount": 11000,
+        "date": "2026-09-06T15:30:00+02:00",
         "currency": "EUR",
-        "images": [
-          "images/watches/rolex-datejust-41.jpg"
-        ],
         "paymentMethod": {
-          "method": "Bank Transfer",
-          "bankAccountNumber": "BE** **** **** 7392"
+          "method": "Credit Card",
+          "cardDetails": {
+            "cardNumber": "**** **** **** 2468",
+            "expiryDate": "11/30"
+          }
         },
         "isIncoming": true,
-        "category": "watches",
-        "tags": [
-          "rolex",
-          "datejust",
-          "luxury",
-          "classic"
-        ],
+        "category": "sales",
+        "tags": ["rolex", "datejust", "sale"],
         "isPaid": true
-      },
+      }
+    ],
+    "budget": {
+      "monthlyLimit": 12000,
+      "notificationThreshold": 0.9,
+      "isActive": false
+    }
+  },
+  {
+    "id": "user_004",
+    "name": "Emma Vermeulen",
+    "email": "emma.vermeulen@example.com",
+    "expenses": [
       {
-        "id": "expense-006",
-        "description": "Casio G-Shock GA-2100",
-        "amount": 110,
-        "date": "2026-03-12T17:30:00Z",
+        "id": "expense_004",
+        "description": "Aankoop Seiko Presage",
+        "amount": 650,
+        "date": "2026-09-08T11:20:00+02:00",
         "currency": "EUR",
-        "images": [
-          "images/watches/casio-gshock-ga-2100.jpg"
-        ],
         "paymentMethod": {
-          "method": "Cash"
+          "method": "PayPal"
         },
-        "isIncoming": true,
+        "isIncoming": false,
         "category": "watches",
-        "tags": [
-          "casio",
-          "gshock",
-          "sport",
-          "casual"
-        ],
+        "tags": ["seiko", "presage"],
         "isPaid": true
       }
     ],
     "budget": {
       "monthlyLimit": 1500,
-      "notificationThreshold": 0.85,
+      "notificationThreshold": 0.75,
       "isActive": true
     }
   },
   {
-    "id": "user-004",
-    "name": "Sarah Vermeulen",
-    "email": "sarah.vermeulen@example.com",
-    "expenses": [
-      {
-        "id": "expense-007",
-        "description": "Omega Seamaster Diver 300M",
-        "amount": 6500,
-        "date": "2026-03-01T12:00:00Z",
-        "currency": "EUR",
-        "images": [
-          "images/watches/omega-seamaster-diver-300m.jpg"
-        ],
-        "paymentMethod": {
-          "method": "Credit Card",
-          "cardDetails": {
-            "cardNumber": "**** **** **** 3168",
-            "expiryDate": "2030-04"
-          }
-        },
-        "isIncoming": true,
-        "category": "watches",
-        "tags": [
-          "omega",
-          "seamaster",
-          "diver",
-          "sport"
-        ],
-        "isPaid": true
-      },
-      {
-        "id": "expense-008",
-        "description": "Tissot Le Locle",
-        "amount": 695,
-        "date": "2026-03-15T15:45:00Z",
-        "currency": "EUR",
-        "images": [
-          "images/watches/tissot-le-locle.jpg"
-        ],
-        "paymentMethod": {
-          "method": "Bank Transfer",
-          "bankAccountNumber": "BE** **** **** 1856"
-        },
-        "isIncoming": true,
-        "category": "watches",
-        "tags": [
-          "tissot",
-          "le-locle",
-          "classic",
-          "dress"
-        ],
-        "isPaid": false
-      }
-    ],
-    "budget": {
-      "monthlyLimit": 2200,
-      "notificationThreshold": 0.9,
-      "isActive": true
-    }
-  },
-  {
-    "id": "user-005",
+    "id": "user_005",
     "name": "Lucas Willems",
     "email": "lucas.willems@example.com",
     "expenses": [
       {
-        "id": "expense-009",
-        "description": "Seiko Presage Cocktail Time",
-        "amount": 450,
-        "date": "2026-02-25T18:15:00Z",
-        "currency": "EUR",
-        "images": [
-          "images/watches/seiko-presage-cocktail-time.jpg"
-        ],
-        "paymentMethod": {
-          "method": "PayPal"
-        },
-        "isIncoming": true,
-        "category": "watches",
-        "tags": [
-          "seiko",
-          "presage",
-          "dress",
-          "automatic"
-        ],
-        "isPaid": true
-      },
-      {
-        "id": "expense-010",
-        "description": "Casio Edifice EFR-S108D",
+        "id": "expense_005",
+        "description": "Aankoop horlogebandje",
         "amount": 120,
-        "date": "2026-03-20T09:30:00Z",
+        "date": "2026-09-10T09:45:00+02:00",
         "currency": "EUR",
-        "images": [
-          "images/watches/casio-edifice-efr-s108d.jpg"
-        ],
         "paymentMethod": {
           "method": "Cash"
         },
-        "isIncoming": true,
-        "category": "watches",
-        "tags": [
-          "casio",
-          "edifice",
-          "sport",
-          "casual"
-        ],
+        "isIncoming": false,
+        "category": "accessories",
+        "tags": ["strap", "leather"],
         "isPaid": true
       }
     ],
     "budget": {
       "monthlyLimit": 1000,
-      "notificationThreshold": 0.75,
+      "notificationThreshold": 0.8,
+      "isActive": true
+    }
+  },
+  {
+    "id": "user_006",
+    "name": "Nina De Wilde",
+    "email": "nina.dewilde@example.com",
+    "expenses": [
+      {
+        "id": "expense_006",
+        "description": "Verkoop Omega Seamaster",
+        "amount": 5800,
+        "date": "2026-09-12T16:00:00+02:00",
+        "currency": "EUR",
+        "paymentMethod": {
+          "method": "Bank Transfer",
+          "bankAccountNumber": "BE** **** **** 5678"
+        },
+        "isIncoming": true,
+        "category": "sales",
+        "tags": ["omega", "seamaster", "sale"],
+        "isPaid": true
+      }
+    ],
+    "budget": {
+      "monthlyLimit": 7000,
+      "notificationThreshold": 0.9,
+      "isActive": true
+    }
+  },
+  {
+    "id": "user_007",
+    "name": "Mathias Jacobs",
+    "email": "mathias.jacobs@example.com",
+    "expenses": [
+      {
+        "id": "expense_007",
+        "description": "Aankoop Rolex Explorer",
+        "amount": 7800,
+        "date": "2026-09-15T13:30:00+02:00",
+        "currency": "EUR",
+        "paymentMethod": {
+          "method": "Credit Card",
+          "cardDetails": {
+            "cardNumber": "**** **** **** 7913",
+            "expiryDate": "05/29"
+          }
+        },
+        "isIncoming": false,
+        "category": "watches",
+        "tags": ["rolex", "explorer"],
+        "isPaid": false
+      }
+    ],
+    "budget": {
+      "monthlyLimit": 8500,
+      "notificationThreshold": 0.9,
+      "isActive": true
+    }
+  },
+  {
+    "id": "user_008",
+    "name": "Julie Maes",
+    "email": "julie.maes@example.com",
+    "expenses": [
+      {
+        "id": "expense_008",
+        "description": "Verzendkosten horloge",
+        "amount": 35,
+        "date": "2026-09-18T08:15:00+02:00",
+        "currency": "EUR",
+        "paymentMethod": {
+          "method": "PayPal"
+        },
+        "isIncoming": false,
+        "category": "shipping",
+        "tags": ["shipping", "delivery"],
+        "isPaid": true
+      }
+    ],
+    "budget": {
+      "monthlyLimit": 500,
+      "notificationThreshold": 0.8,
       "isActive": false
+    }
+  },
+  {
+    "id": "user_009",
+    "name": "Pieter Claes",
+    "email": "pieter.claes@example.com",
+    "expenses": [
+      {
+        "id": "expense_009",
+        "description": "Aankoop Omega Seamaster",
+        "amount": 6100,
+        "date": "2026-09-20T12:00:00+02:00",
+        "currency": "EUR",
+        "paymentMethod": {
+          "method": "Bank Transfer",
+          "bankAccountNumber": "BE** **** **** 9012"
+        },
+        "isIncoming": false,
+        "category": "watches",
+        "tags": ["omega", "seamaster", "diver"],
+        "isPaid": true
+      }
+    ],
+    "budget": {
+      "monthlyLimit": 7500,
+      "notificationThreshold": 0.85,
+      "isActive": true
+    }
+  },
+  {
+    "id": "user_010",
+    "name": "Laura Martens",
+    "email": "laura.martens@example.com",
+    "expenses": [
+      {
+        "id": "expense_010",
+        "description": "Aankoop Seiko Prospex",
+        "amount": 1350,
+        "date": "2026-09-22T17:45:00+02:00",
+        "currency": "EUR",
+        "paymentMethod": {
+          "method": "Credit Card",
+          "cardDetails": {
+            "cardNumber": "**** **** **** 3157",
+            "expiryDate": "02/28"
+          }
+        },
+        "isIncoming": false,
+        "category": "watches",
+        "tags": ["seiko", "prospex", "diver"],
+        "isPaid": true
+      }
+    ],
+    "budget": {
+      "monthlyLimit": 2000,
+      "notificationThreshold": 0.9,
+      "isActive": true
     }
   }
 ]
-
