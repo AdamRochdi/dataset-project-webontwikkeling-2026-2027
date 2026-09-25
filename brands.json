@@ -1,0 +1,32 @@
+[
+  {
+    "id": "brand-001",
+    "name": "Rolex",
+    "country": "Switzerland",
+    "founded": 1905
+  },
+  {
+    "id": "brand-002",
+    "name": "Omega",
+    "country": "Switzerland",
+    "founded": 1848
+  },
+  {
+    "id": "brand-003",
+    "name": "Seiko",
+    "country": "Japan",
+    "founded": 1881
+  },
+  {
+    "id": "brand-004",
+    "name": "Tissot",
+    "country": "Switzerland",
+    "founded": 1853
+  },
+  {
+    "id": "brand-005",
+    "name": "Casio",
+    "country": "Japan",
+    "founded": 1946
+  }
+]
