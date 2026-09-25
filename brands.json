@@ -1,32 +1,61 @@
+```json
 [
   {
     "id": "brand-001",
     "name": "Rolex",
     "country": "Switzerland",
-    "founded": 1905
+    "founded": 1905,
+    "images": [
+      "images/brands/rolex.jpg"
+    ],
+    "watches": [
+      {
+        "id": "watch-001",
+        "name": "Rolex Submariner Date",
+        "description": "Luxury diving watch with a classic design.",
+        "price": 11500,
+        "currency": "EUR",
+        "images": [
+          "images/watches/rolex-submariner-date.jpg"
+        ],
+        "category": "diver",
+        "tags": [
+          "luxury",
+          "diver",
+          "submariner",
+          "automatic"
+        ]
+      },
+      {
+        "id": "watch-002",
+        "name": "Rolex Datejust 41",
+        "description": "Classic luxury watch suitable for everyday wear.",
+        "price": 10500,
+        "currency": "EUR",
+        "images": [
+          "images/watches/rolex-datejust-41.jpg"
+        ],
+        "category": "classic",
+        "tags": [
+          "luxury",
+          "datejust",
+          "classic",
+          "automatic"
+        ]
+      }
+    ]
   },
   {
     "id": "brand-002",
     "name": "Omega",
     "country": "Switzerland",
-    "founded": 1848
-  },
-  {
-    "id": "brand-003",
-    "name": "Seiko",
-    "country": "Japan",
-    "founded": 1881
-  },
-  {
-    "id": "brand-004",
-    "name": "Tissot",
-    "country": "Switzerland",
-    "founded": 1853
-  },
-  {
-    "id": "brand-005",
-    "name": "Casio",
-    "country": "Japan",
-    "founded": 1946
-  }
-]
+    "founded": 1848,
+    "images": [
+      "images/brands/omega.jpg"
+    ],
+    "watches": [
+      {
+        "id": "watch-003",
+        "name": "Omega Speedmaster Professional",
+        "description": "Iconic c
+```
