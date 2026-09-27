@@ -221,18 +221,18 @@
     "isAvailable": true
   },
   {
-    "id": 118,
-    "name": "Baccarat Rouge 540 Sample",
-    "brand": "Maison Francis Kurkdjian",
-    "gender": "Unisex",
-    "type": "Sample",
-    "price": 15.00,
-    "currency": "EUR",
-    "releaseYear": 2015,
-    "image": "https://example.com/images/baccarat-sample.jpg",
-    "notes": ["saffron", "amberwood", "cedar"],
-    "isAvailable": true
-  },
+  "id": 118,
+  "name": "Cloud",
+  "brand": "Ariana Grande",
+  "gender": "Women",
+  "type": "Eau de Parfum",
+  "price": 68.50,
+  "currency": "EUR",
+  "releaseYear": 2018,
+  "image": "https://example.com/images/ariana-grande-cloud.jpg",
+  "notes": ["lavender", "coconut", "vanilla"],
+  "isAvailable": true
+},
   {
     "id": 119,
     "name": "1 Million",
