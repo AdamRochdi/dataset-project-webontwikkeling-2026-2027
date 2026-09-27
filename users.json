@@ -1,280 +1,457 @@
 [
   {
-    "id": "user_001",
-    "name": "Jan Peeters",
-    "email": "jan.peeters@example.com",
+    "id": 1,
+    "name": "Emma Janssens",
+    "email": "emma.janssens@example.com",
     "expenses": [
       {
-        "id": "expense_001",
-        "description": "Aankoop Rolex Submariner",
-        "amount": 8500,
-        "date": "2026-09-02T10:30:00+02:00",
+        "id": 1001,
+        "description": "Aankoop Dior Sauvage",
+        "amount": 99.99,
+        "date": "2026-01-12T14:30:00",
+        "currency": "EUR",
+        "paymentMethod": {
+          "method": "Credit Card",
+          "cardDetails": {
+            "cardNumber": "**** **** **** 4521",
+            "expiryDate": "09/28"
+          }
+        },
+        "isIncoming": false,
+        "category": "parfum",
+        "tags": ["Dior", "woody", "daily"],
+        "isPaid": true,
+        "perfumeId": 101
+      },
+      {
+        "id": 1002,
+        "description": "Verkoop van Chanel parfum",
+        "amount": 75.00,
+        "date": "2026-01-20T18:15:00",
         "currency": "EUR",
         "paymentMethod": {
           "method": "Bank Transfer",
-          "bankAccountNumber": "BE** **** **** 1234"
-        },
-        "isIncoming": false,
-        "category": "watches",
-        "tags": ["rolex", "submariner", "inventory"],
-        "isPaid": true
-      }
-    ],
-    "budget": {
-      "monthlyLimit": 10000,
-      "notificationThreshold": 0.9,
-      "isActive": true
-    }
-  },
-  {
-    "id": "user_002",
-    "name": "Sarah Janssens",
-    "email": "sarah.janssens@example.com",
-    "expenses": [
-      {
-        "id": "expense_002",
-        "description": "Aankoop Omega Speedmaster",
-        "amount": 7200,
-        "date": "2026-09-04T14:15:00+02:00",
-        "currency": "EUR",
-        "paymentMethod": {
-          "method": "Credit Card",
-          "cardDetails": {
-            "cardNumber": "**** **** **** 4821",
-            "expiryDate": "09/29"
-          }
-        },
-        "isIncoming": false,
-        "category": "watches",
-        "tags": ["omega", "speedmaster"],
-        "isPaid": true
-      }
-    ],
-    "budget": {
-      "monthlyLimit": 9000,
-      "notificationThreshold": 0.8,
-      "isActive": true
-    }
-  },
-  {
-    "id": "user_003",
-    "name": "Thomas De Smet",
-    "email": "thomas.desmet@example.com",
-    "expenses": [
-      {
-        "id": "expense_003",
-        "description": "Verkoop Rolex Datejust",
-        "amount": 11000,
-        "date": "2026-09-06T15:30:00+02:00",
-        "currency": "EUR",
-        "paymentMethod": {
-          "method": "Credit Card",
-          "cardDetails": {
-            "cardNumber": "**** **** **** 2468",
-            "expiryDate": "11/30"
-          }
+          "bankAccountNumber": "BE** **** **** 8932"
         },
         "isIncoming": true,
-        "category": "sales",
-        "tags": ["rolex", "datejust", "sale"],
-        "isPaid": true
+        "category": "verkoop",
+        "tags": ["Chanel", "resale"],
+        "isPaid": true,
+        "perfumeId": 102
       }
     ],
     "budget": {
-      "monthlyLimit": 12000,
+      "monthlyLimit": 250,
       "notificationThreshold": 0.9,
-      "isActive": false
-    }
-  },
-  {
-    "id": "user_004",
-    "name": "Emma Vermeulen",
-    "email": "emma.vermeulen@example.com",
-    "expenses": [
-      {
-        "id": "expense_004",
-        "description": "Aankoop Seiko Presage",
-        "amount": 650,
-        "date": "2026-09-08T11:20:00+02:00",
-        "currency": "EUR",
-        "paymentMethod": {
-          "method": "PayPal"
-        },
-        "isIncoming": false,
-        "category": "watches",
-        "tags": ["seiko", "presage"],
-        "isPaid": true
-      }
-    ],
-    "budget": {
-      "monthlyLimit": 1500,
-      "notificationThreshold": 0.75,
       "isActive": true
     }
   },
   {
-    "id": "user_005",
-    "name": "Lucas Willems",
-    "email": "lucas.willems@example.com",
+    "id": 2,
+    "name": "Lucas Peeters",
+    "email": "lucas.peeters@example.com",
     "expenses": [
       {
-        "id": "expense_005",
-        "description": "Aankoop horlogebandje",
-        "amount": 120,
-        "date": "2026-09-10T09:45:00+02:00",
+        "id": 2001,
+        "description": "Aankoop Bleu de Chanel",
+        "amount": 115.50,
+        "date": "2026-02-03T11:20:00",
+        "currency": "EUR",
+        "paymentMethod": {
+          "method": "Credit Card",
+          "cardDetails": {
+            "cardNumber": "**** **** **** 7812",
+            "expiryDate": "04/29"
+          }
+        },
+        "isIncoming": false,
+        "category": "parfum",
+        "tags": ["Chanel", "fresh", "men"],
+        "isPaid": true,
+        "perfumeId": 103
+      },
+      {
+        "id": 2002,
+        "description": "Aankoop parfum samples",
+        "amount": 24.95,
+        "date": "2026-02-10T16:45:00",
         "currency": "EUR",
         "paymentMethod": {
           "method": "Cash"
         },
         "isIncoming": false,
-        "category": "accessories",
-        "tags": ["strap", "leather"],
-        "isPaid": true
+        "category": "samples",
+        "tags": ["samples", "discovery"],
+        "isPaid": true,
+        "perfumeId": 104
       }
     ],
     "budget": {
-      "monthlyLimit": 1000,
+      "monthlyLimit": 200,
       "notificationThreshold": 0.8,
       "isActive": true
     }
   },
   {
-    "id": "user_006",
-    "name": "Nina De Wilde",
-    "email": "nina.dewilde@example.com",
+    "id": 3,
+    "name": "Sofie Vermeulen",
+    "email": "sofie.vermeulen@example.com",
     "expenses": [
       {
-        "id": "expense_006",
-        "description": "Verkoop Omega Seamaster",
-        "amount": 5800,
-        "date": "2026-09-12T16:00:00+02:00",
-        "currency": "EUR",
-        "paymentMethod": {
-          "method": "Bank Transfer",
-          "bankAccountNumber": "BE** **** **** 5678"
-        },
-        "isIncoming": true,
-        "category": "sales",
-        "tags": ["omega", "seamaster", "sale"],
-        "isPaid": true
-      }
-    ],
-    "budget": {
-      "monthlyLimit": 7000,
-      "notificationThreshold": 0.9,
-      "isActive": true
-    }
-  },
-  {
-    "id": "user_007",
-    "name": "Mathias Jacobs",
-    "email": "mathias.jacobs@example.com",
-    "expenses": [
-      {
-        "id": "expense_007",
-        "description": "Aankoop Rolex Explorer",
-        "amount": 7800,
-        "date": "2026-09-15T13:30:00+02:00",
-        "currency": "EUR",
-        "paymentMethod": {
-          "method": "Credit Card",
-          "cardDetails": {
-            "cardNumber": "**** **** **** 7913",
-            "expiryDate": "05/29"
-          }
-        },
-        "isIncoming": false,
-        "category": "watches",
-        "tags": ["rolex", "explorer"],
-        "isPaid": false
-      }
-    ],
-    "budget": {
-      "monthlyLimit": 8500,
-      "notificationThreshold": 0.9,
-      "isActive": true
-    }
-  },
-  {
-    "id": "user_008",
-    "name": "Julie Maes",
-    "email": "julie.maes@example.com",
-    "expenses": [
-      {
-        "id": "expense_008",
-        "description": "Verzendkosten horloge",
-        "amount": 35,
-        "date": "2026-09-18T08:15:00+02:00",
+        "id": 3001,
+        "description": "Aankoop YSL Libre",
+        "amount": 89.99,
+        "date": "2026-02-18T13:10:00",
         "currency": "EUR",
         "paymentMethod": {
           "method": "PayPal"
         },
         "isIncoming": false,
-        "category": "shipping",
-        "tags": ["shipping", "delivery"],
-        "isPaid": true
-      }
-    ],
-    "budget": {
-      "monthlyLimit": 500,
-      "notificationThreshold": 0.8,
-      "isActive": false
-    }
-  },
-  {
-    "id": "user_009",
-    "name": "Pieter Claes",
-    "email": "pieter.claes@example.com",
-    "expenses": [
+        "category": "parfum",
+        "tags": ["YSL", "floral", "women"],
+        "isPaid": true,
+        "perfumeId": 105
+      },
       {
-        "id": "expense_009",
-        "description": "Aankoop Omega Seamaster",
-        "amount": 6100,
-        "date": "2026-09-20T12:00:00+02:00",
+        "id": 3002,
+        "description": "Aankoop parfum cadeau",
+        "amount": 64.99,
+        "date": "2026-02-25T19:30:00",
         "currency": "EUR",
         "paymentMethod": {
-          "method": "Bank Transfer",
-          "bankAccountNumber": "BE** **** **** 9012"
+          "method": "Credit Card",
+          "cardDetails": {
+            "cardNumber": "**** **** **** 3345",
+            "expiryDate": "11/27"
+          }
         },
         "isIncoming": false,
-        "category": "watches",
-        "tags": ["omega", "seamaster", "diver"],
-        "isPaid": true
+        "category": "cadeau",
+        "tags": ["gift", "floral"],
+        "isPaid": true,
+        "perfumeId": 106
       }
     ],
     "budget": {
-      "monthlyLimit": 7500,
+      "monthlyLimit": 180,
       "notificationThreshold": 0.85,
       "isActive": true
     }
   },
   {
-    "id": "user_010",
-    "name": "Laura Martens",
-    "email": "laura.martens@example.com",
+    "id": 4,
+    "name": "Noah De Smet",
+    "email": "noah.desmet@example.com",
     "expenses": [
       {
-        "id": "expense_010",
-        "description": "Aankoop Seiko Prospex",
-        "amount": 1350,
-        "date": "2026-09-22T17:45:00+02:00",
+        "id": 4001,
+        "description": "Aankoop Armani Acqua di Gio",
+        "amount": 79.95,
+        "date": "2026-03-02T10:05:00",
+        "currency": "EUR",
+        "paymentMethod": {
+          "method": "Bank Transfer",
+          "bankAccountNumber": "BE** **** **** 4527"
+        },
+        "isIncoming": false,
+        "category": "parfum",
+        "tags": ["Armani", "fresh", "summer"],
+        "isPaid": true,
+        "perfumeId": 107
+      },
+      {
+        "id": 4002,
+        "description": "Verkoop van ongebruikte parfum",
+        "amount": 55.00,
+        "date": "2026-03-12T17:40:00",
+        "currency": "EUR",
+        "paymentMethod": {
+          "method": "Bank Transfer",
+          "bankAccountNumber": "BE** **** **** 4527"
+        },
+        "isIncoming": true,
+        "category": "verkoop",
+        "tags": ["resale", "collection"],
+        "isPaid": true,
+        "perfumeId": 108
+      }
+    ],
+    "budget": {
+      "monthlyLimit": 220,
+      "notificationThreshold": 0.9,
+      "isActive": false
+    }
+  },
+  {
+    "id": 5,
+    "name": "Lotte Willems",
+    "email": "lotte.willems@example.com",
+    "expenses": [
+      {
+        "id": 5001,
+        "description": "Aankoop Lancôme La Vie Est Belle",
+        "amount": 92.50,
+        "date": "2026-03-08T15:25:00",
         "currency": "EUR",
         "paymentMethod": {
           "method": "Credit Card",
           "cardDetails": {
-            "cardNumber": "**** **** **** 3157",
-            "expiryDate": "02/28"
+            "cardNumber": "**** **** **** 6678",
+            "expiryDate": "07/30"
           }
         },
         "isIncoming": false,
-        "category": "watches",
-        "tags": ["seiko", "prospex", "diver"],
-        "isPaid": true
+        "category": "parfum",
+        "tags": ["Lancôme", "sweet", "floral"],
+        "isPaid": true,
+        "perfumeId": 109
+      },
+      {
+        "id": 5002,
+        "description": "Aankoop mini parfum",
+        "amount": 29.95,
+        "date": "2026-03-15T12:00:00",
+        "currency": "EUR",
+        "paymentMethod": {
+          "method": "Cash"
+        },
+        "isIncoming": false,
+        "category": "miniature",
+        "tags": ["mini", "travel"],
+        "isPaid": false,
+        "perfumeId": 110
       }
     ],
     "budget": {
-      "monthlyLimit": 2000,
+      "monthlyLimit": 150,
+      "notificationThreshold": 0.75,
+      "isActive": true
+    }
+  },
+  {
+    "id": 6,
+    "name": "Milan Jacobs",
+    "email": "milan.jacobs@example.com",
+    "expenses": [
+      {
+        "id": 6001,
+        "description": "Aankoop Tom Ford Oud Wood",
+        "amount": 245.00,
+        "date": "2026-04-01T16:50:00",
+        "currency": "EUR",
+        "paymentMethod": {
+          "method": "Credit Card",
+          "cardDetails": {
+            "cardNumber": "**** **** **** 1290",
+            "expiryDate": "02/29"
+          }
+        },
+        "isIncoming": false,
+        "category": "niche parfum",
+        "tags": ["Tom Ford", "oud", "luxury"],
+        "isPaid": true,
+        "perfumeId": 111
+      },
+      {
+        "id": 6002,
+        "description": "Aankoop parfum discovery set",
+        "amount": 49.90,
+        "date": "2026-04-12T14:15:00",
+        "currency": "EUR",
+        "paymentMethod": {
+          "method": "PayPal"
+        },
+        "isIncoming": false,
+        "category": "discovery set",
+        "tags": ["niche", "samples"],
+        "isPaid": true,
+        "perfumeId": 112
+      }
+    ],
+    "budget": {
+      "monthlyLimit": 350,
       "notificationThreshold": 0.9,
+      "isActive": true
+    }
+  },
+  {
+    "id": 7,
+    "name": "Julie Maes",
+    "email": "julie.maes@example.com",
+    "expenses": [
+      {
+        "id": 7001,
+        "description": "Aankoop Marc Jacobs Daisy",
+        "amount": 82.00,
+        "date": "2026-04-09T11:35:00",
+        "currency": "EUR",
+        "paymentMethod": {
+          "method": "PayPal"
+        },
+        "isIncoming": false,
+        "category": "parfum",
+        "tags": ["Marc Jacobs", "floral", "fresh"],
+        "isPaid": true,
+        "perfumeId": 113
+      },
+      {
+        "id": 7002,
+        "description": "Aankoop parfum voor verjaardag",
+        "amount": 69.99,
+        "date": "2026-04-20T18:00:00",
+        "currency": "EUR",
+        "paymentMethod": {
+          "method": "Credit Card",
+          "cardDetails": {
+            "cardNumber": "**** **** **** 9012",
+            "expiryDate": "08/28"
+          }
+        },
+        "isIncoming": false,
+        "category": "cadeau",
+        "tags": ["birthday", "gift"],
+        "isPaid": true,
+        "perfumeId": 114
+      }
+    ],
+    "budget": {
+      "monthlyLimit": 200,
+      "notificationThreshold": 0.85,
+      "isActive": true
+    }
+  },
+  {
+    "id": 8,
+    "name": "Thomas Claes",
+    "email": "thomas.claes@example.com",
+    "expenses": [
+      {
+        "id": 8001,
+        "description": "Aankoop Jean Paul Gaultier Le Male",
+        "amount": 88.75,
+        "date": "2026-05-05T13:45:00",
+        "currency": "EUR",
+        "paymentMethod": {
+          "method": "Bank Transfer",
+          "bankAccountNumber": "BE** **** **** 7734"
+        },
+        "isIncoming": false,
+        "category": "parfum",
+        "tags": ["JPG", "vanilla", "men"],
+        "isPaid": true,
+        "perfumeId": 115
+      },
+      {
+        "id": 8002,
+        "description": "Verkoop parfum sample set",
+        "amount": 35.00,
+        "date": "2026-05-17T20:10:00",
+        "currency": "EUR",
+        "paymentMethod": {
+          "method": "Cash"
+        },
+        "isIncoming": true,
+        "category": "verkoop",
+        "tags": ["samples", "resale"],
+        "isPaid": true,
+        "perfumeId": 116
+      }
+    ],
+    "budget": {
+      "monthlyLimit": 175,
+      "notificationThreshold": 0.8,
+      "isActive": false
+    }
+  },
+  {
+    "id": 9,
+    "name": "Amélie Laurent",
+    "email": "amelie.laurent@example.com",
+    "expenses": [
+      {
+        "id": 9001,
+        "description": "Aankoop Maison Francis Kurkdjian Baccarat Rouge 540",
+        "amount": 295.00,
+        "date": "2026-05-11T15:20:00",
+        "currency": "EUR",
+        "paymentMethod": {
+          "method": "Credit Card",
+          "cardDetails": {
+            "cardNumber": "**** **** **** 5417",
+            "expiryDate": "03/30"
+          }
+        },
+        "isIncoming": false,
+        "category": "niche parfum",
+        "tags": ["MFK", "luxury", "unisex"],
+        "isPaid": true,
+        "perfumeId": 117
+      },
+      {
+        "id": 9002,
+        "description": "Aankoop parfum sample",
+        "amount": 15.00,
+        "date": "2026-05-19T10:30:00",
+        "currency": "EUR",
+        "paymentMethod": {
+          "method": "Cash"
+        },
+        "isIncoming": false,
+        "category": "samples",
+        "tags": ["MFK", "sample"],
+        "isPaid": true,
+        "perfumeId": 118
+      }
+    ],
+    "budget": {
+      "monthlyLimit": 400,
+      "notificationThreshold": 0.9,
+      "isActive": true
+    }
+  },
+  {
+    "id": 10,
+    "name": "Arthur Van den Broeck",
+    "email": "arthur.vandenbroeck@example.com",
+    "expenses": [
+      {
+        "id": 10001,
+        "description": "Aankoop Paco Rabanne 1 Million",
+        "amount": 74.99,
+        "date": "2026-06-03T12:40:00",
+        "currency": "EUR",
+        "paymentMethod": {
+          "method": "PayPal"
+        },
+        "isIncoming": false,
+        "category": "parfum",
+        "tags": ["Paco Rabanne", "sweet", "men"],
+        "isPaid": true,
+        "perfumeId": 119
+      },
+      {
+        "id": 10002,
+        "description": "Aankoop zomers parfum",
+        "amount": 59.95,
+        "date": "2026-06-21T14:50:00",
+        "currency": "EUR",
+        "paymentMethod": {
+          "method": "Credit Card",
+          "cardDetails": {
+            "cardNumber": "**** **** **** 2468",
+            "expiryDate": "12/29"
+          }
+        },
+        "isIncoming": false,
+        "category": "parfum",
+        "tags": ["summer", "fresh"],
+        "isPaid": false,
+        "perfumeId": 120
+      }
+    ],
+    "budget": {
+      "monthlyLimit": 175,
+      "notificationThreshold": 0.85,
       "isActive": true
     }
   }
